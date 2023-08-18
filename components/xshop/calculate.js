@@ -45,10 +45,11 @@ export default function Calculate({prop, values }) {
           default:
              
         }
+          
         
-        setTotalValue(totalValue+values.total)
+        setTotalValue(totalValue => totalValue+values.total)
         
-      }, [values]);
+      }, [values, setTotalValue]);
 
       useEffect(() => {
         const usr = localStorage.getItem("loggedInUser");
