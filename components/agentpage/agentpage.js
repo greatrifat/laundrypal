@@ -238,7 +238,7 @@ export default function AgentPage() {
       }
     };
     fetchData();
-  }, [clients]);
+  }, [clients, agent.email]);
 
 
   
@@ -260,7 +260,7 @@ export default function AgentPage() {
           
         {orders && orders.map((order) => (
 
-            <li className="">
+            <li className="" key={index}>
                 <div className="p-3 rounded-lg bg-blue-100 ">
                     
                     <div className="min-w-0">

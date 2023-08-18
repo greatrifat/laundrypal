@@ -364,9 +364,6 @@ export default function ViewShop() {
         </div>
       </div>
       {tabs[0].current && <Shirts />}
-      {tabs[1].current && <ProfileActivity />}
-      {tabs[2].current && <ProfileSave />}
-      {tabs[3].current && <ProfileEdit />}
     </div>
   );
 }

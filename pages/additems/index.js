@@ -171,7 +171,7 @@ export default function Additems() {
                               
                               {agent.services?.map((service , index) => (
                                 
-                                  <div className="flex items-center min-w-0 mr-5 mt-3">
+                                  <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                   <div className="m-2 flex">
                                   <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                       For {service} 
@@ -188,7 +188,7 @@ export default function Additems() {
                                   
                                     className="block w-14 appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                                   />
-                              </div>
+                                </div>
                                   
                               </div>
 
@@ -204,7 +204,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 
@@ -239,7 +239,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 
@@ -274,7 +274,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 
@@ -309,7 +309,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 
@@ -344,7 +344,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 
@@ -379,7 +379,7 @@ export default function Additems() {
                     
                 {agent.services?.map((service , index) => (
                                 
-                                <div className="flex items-center min-w-0 mr-5 mt-3">
+                                <div className="flex items-center min-w-0 mr-5 mt-3" key={index}>
                                 <div className="m-2 flex">
                                 <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
                                     For {service} 

@@ -181,7 +181,7 @@ const acceptorder = async () => {
                     </div>
                     <div className="text-base font-semibold text-gray-900 dark:text-white">
                     {client.forwash?.map((elements) => (
-                           <div className="flex"><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
+                           <div className="flex" key={index}><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
                            
                            ))}  
                     </div>
@@ -198,7 +198,7 @@ const acceptorder = async () => {
                     </div>
                     <div className="text-base font-semibold text-gray-900 dark:text-white">
                     {client.fordryclean?.map((elements) => (
-                           <div className="flex"><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
+                           <div className="flex" key={index}><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
                            
                            ))}  
                     </div>
@@ -215,7 +215,7 @@ const acceptorder = async () => {
                     </div>
                     <div className="text-base font-semibold text-gray-900 dark:text-white">
                     {client.foriron?.map((elements) => (
-                           <div className="flex"><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
+                           <div className="flex" key={index}><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
                            
                            ))}  
                     </div>
@@ -232,7 +232,7 @@ const acceptorder = async () => {
                     </div>
                     <div className="text-base font-semibold text-gray-900 dark:text-white">
                     {client.forwashiron?.map((elements) => (
-                           <div className="flex"><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
+                           <div className="flex" key={index}><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
                            
                            ))}  
                     </div>
@@ -249,7 +249,7 @@ const acceptorder = async () => {
                     </div>
                     <div className="text-base font-semibold text-gray-900 dark:text-white">
                     {client.fordryiron?.map((elements) => (
-                           <div className="flex"><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
+                           <div className="flex" key={index}><p className="font-medium mr-4">{elements.quantity} X {elements.product} = </p>${elements.total}</div>
                            
                            ))}  
                     </div>

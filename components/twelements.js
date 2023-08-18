@@ -79,7 +79,7 @@ const Service1 = ({prop , prod, num ,change}) => {
     
     let con = parseInt(per, 10)
     setTotal(val*con)
-  }, [val]);
+  }, [val, prop, prod?.wash, prod?.dryClean, prod?.iron]);
 
   const handleInputChange = (e) => {
     change(prop , prod.name, total, val)
@@ -212,7 +212,7 @@ useEffect(() => {
   
 
   setTotal(val*per)
-}, [val]);
+}, [val, prop, prod?.wash, prod?.dryClean, prod?.iron]);
 
 const handleInputChange = (e) => {
   change(service , prod.name, total, val)

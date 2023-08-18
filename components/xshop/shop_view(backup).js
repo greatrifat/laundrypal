@@ -391,9 +391,7 @@ export default function ViewShop({prop}) {
       </div>
       
       {tabs[0].current && <Shirts prop1 = {services} prod = {shop.shirt}/>}
-      {tabs[1].current && <ProfileActivity />}
-      {tabs[2].current && <ProfileSave />}
-      {tabs[3].current && <ProfileEdit />}
+
     </div>
   );
 }
